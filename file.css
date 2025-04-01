@@ -1,0 +1,24 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between; /* Domyślnie wyrównuje logo i tytuł */
+}
+footer {
+    width: 100%;
+    height: 100px; /* Stała wysokość stopki */
+    background-color: #e0e0e0; /* Jasnoszare tło */
+    border-top: 2px solid black; /* Czarna górna ramka */
+    margin-top: 15px; /* Górny margines */
+    display: flex;
+    justify-content: center; /* Wycentrowanie zawartości w poziomie */
+    align-items: center; /* Wycentrowanie zawartości w pionie */
+    text-align: center;
+}
